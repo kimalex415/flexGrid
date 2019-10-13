@@ -36,6 +36,10 @@ img {
 	text-transform: uppercase;
 }
 
+#navbar ul {
+	padding: 0;
+}
+
 #navbar li {
 	display: inline;
 	padding-right: 20px;
@@ -228,6 +232,12 @@ img {
 }
 
 @media (max-width: 500px) {
+	#navbar li {
+		display: block;
+		line-height: 2em;
+		padding: 0;
+	}
+
 	#showcase .showcase-content {
 		padding: 40px 10px;
 	}
